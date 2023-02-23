@@ -1,0 +1,11 @@
+body {
+    background-color: #030C26;
+    color: azure;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
