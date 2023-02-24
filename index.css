@@ -1,11 +1,34 @@
-body {
-    background-color: #030C26;
-    color: azure;
-    text-align: center;
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
 }
 
+body {
+  background: url(assets/background.png) no-repeat center center fixed; 
+  background-size: cover;
+}
+
+main {
+  position: relative;
+}
+
+.tab-buttons {
+  color: #fff;
+  text-align: right;
+  margin-top: 10px;
+  font-size: 20px;
+  justify-content: space-between;
+}
+
+.descricao {
+  text-align: center;
+  display: block;
+}
+
+
 img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+  border-radius: 50%;
 }
