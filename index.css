@@ -9,25 +9,22 @@ html {
 body {
   background: url(assets/background.png) no-repeat center center fixed;
   background-size: cover;
-}
-
-main {
-  position: relative;
+  display: flex;
 }
 
 .tab-buttons {
-  color: #fff;
   text-align: right;
-  margin-top: 10px;
-  font-size: 20px;
   justify-content: space-between;
 }
 
-.descricao {
+.content {
   text-align: center;
-  display: block;
 }
 
+.links {
+  text-align: left;
+  justify-content: space-between;
+}
 
 img {
   border-radius: 50%;
